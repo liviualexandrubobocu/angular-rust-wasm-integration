@@ -47,7 +47,7 @@ npm i ./rust-wasm/rust-wasm-bundle
 
 ## Step 5
 
-Add to Cargo.toml file the following neccesary lines of configuration:
+Add to Cargo.toml (inside the Rust library) file the following neccesary lines of configuration:
 
 ```
 [lib]
@@ -59,7 +59,7 @@ wasm-bindgen = { version = "0.2", features = ["serde-serialize"] }
 
 ## Step 6
 
-Add import for wasm bindgen inside the library by the following lines:
+Add import for wasm bindgen inside the Rust library by the following lines:
 
 ```
 extern crate wasm_bindgen;
