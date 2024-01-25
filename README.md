@@ -42,7 +42,10 @@ Add to package.json file
 ## Step 4
 
 ```
-npm i ./rust-wasm/rust-wasm-bundle
+cd rust-wasm
+mkdir rust-wasm-bundle
+cd rust-wasm-bundle
+npm init
 ```
 
 ## Step 5
